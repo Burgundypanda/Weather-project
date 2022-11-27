@@ -22,13 +22,25 @@
       <div class="main">
         <form id="search-bar">
           <input type="text" placeholder="Enter a city..." id="city-input" />
-          <input type="submit" class="searchbtn" value="Search" />
+          <input
+            type="submit"
+            class="searchbtn"
+            value="Search"
+            id="search-enter-city"
+          />
+          <input
+            type="submit"
+            class="currentbtn"
+            value="📍"
+            id="showPosition"
+          />
         </form>
         <div id="city-name">London</div>
         <div class="row">
           <div class="col-6">
-            <span id="day-time">Sun 12:00</span>
-            <br />
+            <span id="day-time">Sun 12:00></span>
+          </div>
+          <div class="col-1">
             <span id="current-weather">🌧</span>
           </div>
           <div class="col-6">
